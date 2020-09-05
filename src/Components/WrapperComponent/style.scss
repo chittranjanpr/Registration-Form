@@ -1,0 +1,10 @@
+.wrapper-container{
+    width: 530px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 550px) {
+    .wrapper-container{
+        width: 100%;
+    }
+}

@@ -1,0 +1,44 @@
+.section-one-form-container{
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 2% 6%;
+}
+
+.section-one-gender{
+    display: flex;
+}
+
+.section-one-gender-button{
+    border: 1px solid #CBCBCB;
+    background-color: #fff;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.section-one-gender-button-active{
+    background-color: #FDEFE5;
+    border: 1px solid #CBCBCB;
+    color: #F24C00;
+    border: none;
+    outline: none;
+}
+
+
+.section-one-gender-button:hover{
+    background-color: #FDEFE5;
+    border: 1px solid #CBCBCB;
+    color: #F24C00;
+    border: none;
+}
+
+.section-one-account{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-one-gender-cont{
+    margin-bottom: 8px;
+}

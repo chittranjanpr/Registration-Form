@@ -1,0 +1,20 @@
+.success_container {
+    padding: 10% 0%;
+}
+
+.success_container_img{
+    width: 40%;
+    border-radius: 50%;
+    margin: auto;
+}
+.success_container_img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 550px) {
+    .success_container_img{
+        width: 50%;
+    }
+}
+

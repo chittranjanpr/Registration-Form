@@ -1,0 +1,49 @@
+@import '../../scss/colors.scss';
+
+.header__container{
+        background-color: #344466;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.header__container_number{
+        background-color: #2D3C5C;
+        border-radius: 50%;
+        margin-right: 5px;
+        display: inline-block;
+        padding: 7px;
+        text-align: center;
+        width: 20px;
+}
+
+.header__container_text{
+        color: #BEC6CE;  
+}
+
+.header__container_text_active{
+        color: #fff;  
+        font-weight: 600;
+}
+
+.header__container div{
+        margin-right: 6%;
+}
+
+.header__container_number_active{
+        background-color: #F24C00;
+        border-radius: 50%;
+        display: inline-block;
+        padding: 7px;
+        text-align: center;
+        width: 20px;
+        color: #fff;
+        margin-right: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+        .header__container{
+                height: 7vh;   
+        }
+}
